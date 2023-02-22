@@ -436,4 +436,8 @@ header nav ul li a:hover:after {
         margin: 5px 0 10px;
         background-color: #ffffff99;
     }
+
+    .cities ul li::before {
+        font-size: 3.5rem;
+    }
 }
