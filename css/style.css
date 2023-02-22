@@ -375,3 +375,65 @@ header nav ul li a:hover:after {
 .cities ul li a:hover {
     transform: scale(1.5);
 }
+
+@media (max-width: 767px) {
+    header {
+        right: 20px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .landing {
+        flex-direction: column;
+    }
+
+    .landing .img-bg {
+        width: 100%;
+    }
+
+    .landing .right-content {
+        width: 100%;
+        background-color: #ffffff99;
+        z-index: 20;
+        padding: 10px 20px 20px;
+        margin-top: 70px;
+    }
+
+    .landing .right-content h1 {
+        text-align: center;
+    }
+
+    .landing .right-content .logo {
+        height: 250px;
+    }
+
+    .landing .social-icon {
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 21;
+        height: fit-content;
+    }
+
+    .landing .slider {
+        position: static;
+        margin: 20px auto 0;
+        height: 210px;
+    }
+
+    .landing .slider::before,
+    .landing .slider::after {
+        display: none;
+    }
+
+    .landing .slider .controls {
+        margin-top: 10px;
+    }
+
+    .landing .slider .wrapper blockquote {
+        margin: 5px 0 10px;
+        background-color: #ffffff99;
+    }
+}
